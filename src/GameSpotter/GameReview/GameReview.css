@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+@media screen and (min-width: 350px) {
+
+    .GameReview-Container {
+        margin-bottom: 2rem;
+    }
+
+    .GameReview {
+        background-image: url("../../assets//img.JPG");
+        min-height: 80vh;
+        margin-top: 6rem;
+        position: relative;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .--GameReview-content {
+        position: absolute;
+        border-radius: 10px;
+        margin-left: 3rem;
+        top: 25%;
+        color: black;
+    }
+
+    .--GameReview-content hr {
+        width: 5.5rem;
+        border: 5px solid #f1a32a;
+        border-radius: 5px;
+    }
+
+    .--GameReview-content h1 {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        color: white;
+        font-style: normal;
+    }
+
+    .--GameReview-content h2 {
+        font-size: 5rem;
+        margin-bottom: 1rem;
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #f1a32a;
+    }
+
+    .--GameReview-information {
+        display: none;
+    }
+
+    /* .--GameReview-check {
+        display: none;
+    } */
+
+    .GameReview-new-release {
+        padding: 10px;
+        color: white;
+    }
+
+    .GameReview-new-release h1 {
+        margin-top: 3rem;
+        margin-left: 20px;
+        margin-bottom: 2rem;
+        color: white;
+    }
+
+    .--GameReview-select select {
+        height: 40px;
+        border-radius: 10px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        width: 20rem;
+    }
+
+    .--GameReview-Release {
+        display: grid;
+        margin-left: 15px;
+        gap: 20px;
+    }
+
+
+    .--GameReview-Releasess {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+
+
+
+    .--GameReview-Release-content {
+        background-color: #001218;
+        border-radius: 20px;
+        padding: 10px;
+        width: 23rem;
+    }
+
+    .GameReview-inView {
+        padding: 10px;
+    }
+
+    .GameReview-inView h2 {
+        margin-bottom: 15px;
+    }
+
+    .GameReview-inView p {
+        color: rgba(255, 255, 255, 0.634);
+    }
+
+    .--GameReview-header-icons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .--GameReview-name {
+        margin-bottom: 5px;
+    }
+
+    .--GameReview-icons {
+        margin-top: 20px;
+    }
+
+    .GameReview-inView hr {
+        margin-top: 5px;
+    }
+
+    .GameReview-inView span {
+        color: blue;
+        position: relative;
+    }
+
+
+    .--GameReview-Release-content img {
+        width: 21.6rem;
+        height: 15rem;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+
+
+    /* animationSpeed: 40s; */
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-250px * 7));
+        }
+    }
+
+
+
+    .--GameReview-Images-Gif img {
+        width: 10rem;
+        height: 20rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .--GameReview-illustrate ul {
+        margin-top: 30px;
+    }
+
+    .--GameReview-Recommended-button {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+        margin-right: 5px;
+    }
+
+    .--GameReview-Recommended-button button {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .--GameReview-gamers-first {
+        background-color: #800000;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-left: 15px;
+        border-radius: 10px;
+        height: 5.5rem;
+    }
+
+    .--GameReview-gamers-second {
+        background-color: #008000;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-left: 15px;
+        border-radius: 10px;
+        height: 5.5rem;
+        margin-top: 20px;
+    }
+
+    .--GameReview-gamers-third {
+        background-color: #008080;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-left: 15px;
+        border-radius: 10px;
+        height: 5.5rem;
+        margin-top: 20px;
+    }
+
+    .--GameReview-Recommended-First {
+        display: none;
+    }
+
+    .--GameReview-general h1 {
+        text-align: center;
+    }
+
+    .--GameReview-general p {
+        display: none;
+    }
+
+    .--GameReview-Recommended-Second {
+        margin-right: 10px;
+    }
+
+    .--GameReview-Recommended-Second h2 {
+        text-align: center;
+        font-size: 2.3rem;
+        margin-bottom: 20px;
+    }
+
+
+    .GameReview-games-loading img {
+        width: 12rem;
+        justify-content: center;
+        margin-left: 4rem;
+    }
+
+    .--GameReview-firstSection {
+        display: block;
+        margin-left: 15px;
+    }
+
+    .--GameReview-firstSection h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+    }
+
+    .--GameReview-firstSection input {
+        padding: 10px 20px;
+        width: 22rem;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+    }
+
+    .--GameReview-select {
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+
+    .GameReview-Container {
+        margin-bottom: 2rem;
+    }
+
+    .GameReview {
+        background-image: url(../../assets/reviewsBg.jpg);
+        min-height: 75vh;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .--GameReview-content {
+        position: absolute;
+        margin-top: -2rem;
+        border-radius: 10px;
+        margin-left: 45rem;
+        justify-content: flex-end;
+        height: 20rem;
+        top: 30%;
+        color: black;
+    }
+
+    .--GameReview-content hr {
+        width: 5.5rem;
+        border: 5px solid #f1a32a;
+        border-radius: 5px;
+    }
+
+    .--GameReview-content h1 {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        color: black;
+        font-style: normal;
+    }
+
+    .--GameReview-content h2 {
+        font-size: 6rem;
+        margin-bottom: 1rem;
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #001218;
+    }
+
+    .--GameReview-information {
+        background-color: white;
+        justify-content: center;
+        padding: 2rem;
+        margin-left: 25rem;
+        margin-top: -5rem;
+        position: absolute;
+        margin-bottom: 2rem;
+        border-radius: 20px;
+        height: 10rem;
+        width: 40rem;
+        display: block;
+    }
+
+    .--GameReview-check {
+        margin-top: 10rem;
+        padding: 15px;
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .--GameReview-firstSection {
+        display: flex;
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .--GameReview-firstSection input {
+        padding: 10px;
+        height: 40px;
+        margin-top: 20px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        width: 20rem;
+    }
+
+    .--GameReview-secondSection {
+        display: flex;
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .--GameReview-select {
+        background: none;
+        height: 20px;
+    }
+
+    .GameReview-new-release {
+        padding: 10px;
+        color: white;
+    }
+
+    .GameReview-new-release h1 {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        color: #f1a32a;
+    }
+
+    .--GameReview-select select {
+        height: 40px;
+        border-radius: 10px;
+        padding: 10px;
+        outline: none;
+        border: none;
+        width: 20rem;
+    }
+
+    .--GameReview-Release {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+
+    .--GameReview-Releasess {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+
+
+
+    .--GameReview-Release-content {
+        background-color: #001218;
+        border-radius: 20px;
+        padding: 10px;
+        width: 20rem;
+    }
+
+    .GameReview-inView {
+        padding: 10px;
+    }
+
+    .GameReview-inView h2 {
+        margin-bottom: 15px;
+    }
+
+    .GameReview-inView p {
+        color: rgba(255, 255, 255, 0.634);
+    }
+
+    .--GameReview-header-icons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .--GameReview-name {
+        margin-bottom: 5px;
+    }
+
+    .--GameReview-icons {
+        margin-top: 20px;
+    }
+
+    .GameReview-inView hr {
+        margin-top: 5px;
+    }
+
+    .GameReview-inView span {
+        color: blue;
+        position: relative;
+    }
+
+
+    .--GameReview-Release-content img {
+        width: 18.8rem;
+        height: 15rem;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .--GameReview-general {
+        margin-top: 7rem;
+    }
+
+    .--GameReview-general h1 {
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+        font-family: "Abril Fatface", serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+
+    .--GameReview-general p {
+        text-align: center;
+        color: white;
+        font-size: 2.5rem;
+
+    }
+
+    .--GameReview-Recommended {
+        background-color: white;
+        justify-content: center;
+        color: black;
+        padding: 2rem;
+        margin-left: 2.5rem;
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: 1fr 300px;
+        margin-bottom: 2rem;
+        border-radius: 20px;
+        height: 30rem;
+        width: 83rem;
+    }
+
+    .--GameReview-Recommended-First {
+        display: flex;
+        box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.75);
+        justify-content: space-around;
+        padding: 40px;
+        gap: 10px;
+        border-radius: 20px;
+    }
+
+
+    /* animationSpeed: 40s; */
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-250px * 7));
+        }
+    }
+
+    .--GameReview-slider {
+        height: 100px;
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .--GameReview-slide-track {
+        display: flex;
+        animation: scroll 40s linear infinite;
+        width: calc(250px * 14);
+    }
+
+    .--GameReview-slide {
+        height: 100px;
+        width: 250px;
+        flex-shrink: 0;
+    }
+
+
+    .--GameReview-Images-Gif img {
+        width: 10rem;
+        height: 20rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .--GameReview-illustrate ul {
+        margin-top: 30px;
+    }
+
+    .--GameReview-Recommended-button {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+        margin-right: 5px;
+    }
+
+    .--GameReview-Recommended-button button {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .--GameReview-gamers-first {
+        background-color: #800000;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-left: 15px;
+        border-radius: 10px;
+        height: 5.5rem;
+    }
+
+    .--GameReview-gamers-second {
+        background-color: #008000;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-left: 15px;
+        border-radius: 10px;
+        height: 5.5rem;
+        margin-top: 20px;
+    }
+
+    .--GameReview-gamers-third {
+        background-color: #008080;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-left: 15px;
+        border-radius: 10px;
+        height: 5.5rem;
+        margin-top: 20px;
+    }
+
+    .--GameReview-Recommended-Second {
+        margin-right: 0;
+    }
+
+    .--GameReview-Recommended-Second h2 {
+        text-align: center;
+        font-size: 2.3rem;
+        margin-bottom: 20px;
+    }
+
+
+    .GameReview-games-loading img {
+        width: 12rem;
+        justify-content: center;
+        margin-left: 37rem;
+    }
+}

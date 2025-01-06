@@ -1,0 +1,579 @@
+@media screen and (min-width: 350px) {
+    .UserLibrary-header {
+        margin-top: 9rem;
+        color: white;
+        margin-left: 5px;
+    }
+
+    .UserLibrary-header h1 {
+        margin-left: 10px;
+    }
+    
+    .UserLibrary-header-games {
+        margin-top: 2.5rem;
+        padding: 10px;
+    }
+    
+    .UserLibrary-header-games p {
+        margin-top: 20px;
+    }
+    
+    
+    .UserLibrary-games {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        /* margin-left: 1.5rem; */
+    }
+    
+    
+    .UserLibrary-games-content {
+        background-color: #001218;
+        padding: 20px;
+        border-radius: 20px;
+        height: 30rem;
+        width: 24rem;
+    }
+    
+    .UserLibrary-games-content-img {
+        width: 21rem;
+        height: 12rem;
+        border-radius: 10px;
+    }
+    
+    
+    .UserLibrary-games-content img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .UserLibrary-games-content h3, h2 {
+        margin-top: 20px;
+    }
+    
+    .UserLibrary-games-content p {
+        margin-top: 20px;
+        color: rgba(255, 255, 255, 0.748);
+    }
+    
+    .UserLibrary-apple-play {
+        display: flex;
+        gap: 20px;
+        margin-top: 10px;
+    }
+
+    .UserLibrary-apple-play-one {
+        width: 110px;
+        height: 65px;
+    }
+
+    .UserLibrary-apple-play-two {
+        width: 100px;
+        margin-top: -2rem;
+        height: 130px;
+    }
+    
+    
+    .UserLibrary-information {
+        text-align: center;
+        margin-top: 4rem;
+    }
+    
+    .UserLibrary-information p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: rgba(255, 255, 255, 0.748);
+        padding: 10px;
+    }
+    
+    
+    .UserLibrary-modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        backdrop-filter: blur(3px) saturate(180%);
+        -webkit-backdrop-filter: blur(3px) saturate(180%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000; 
+    }
+    
+    .UserLibrary-modal {
+        background: #001218;
+        color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 90%;
+        max-width: 500px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        position: relative;
+    }
+    
+    .UserLibrary-close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: red;
+        background: none;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    
+    .add-game-form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .add-game-form textarea {
+        padding: 10px;
+        border-radius: 4px;
+        background: none;
+        color: white;
+        width: 17rem;
+        border: 1px solid #ccc;
+    }
+    
+    .add-game-form input {
+        padding: 10px;
+        border-radius: 4px;
+        background: none;
+        width: 20rem;
+        color: white;
+        border: 1px solid #ccc;
+    }
+    
+    .add-game-forms input, .add-game-forms textarea {
+        padding: 5px;
+        border-radius: 4px;
+        background: none;
+        color: white;
+        border: 1px solid #ccc;
+    }
+
+    .step h2 {
+        margin-bottom: 10px;
+        color: rgba(255, 255, 255, 0.675);
+    }
+    
+    .add-game-forms {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .add-game-forms h3 {
+        margin-bottom: 10px;
+    }
+    
+    .add-game-form button {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .spinner-container {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 17rem; 
+        width: 100px;
+        height: 100px;
+    }
+
+    .spinner {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: conic-gradient(
+            rgba(255, 0, 0, 1),
+            rgba(255, 127, 0, 1),
+            rgba(255, 255, 0, 1),
+            rgba(0, 255, 0, 1),
+            rgba(0, 255, 255, 1),
+            rgba(0, 0, 255, 1),
+            rgba(127, 0, 255, 1),
+            rgba(255, 0, 0, 1)
+        );
+        animation: spin 1.5s linear infinite;
+    }
+
+    .spinner-inner {
+        position: absolute;
+        top: 5%;  
+        left: 5%;
+        width: 90%; 
+        height: 90%;
+        background-color: #000000;
+        border-radius: 50%;
+    }
+
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFFFFF; 
+        font-size: 18px; 
+        letter-spacing: -1px; 
+        text-align: center;
+        z-index: 1; 
+    }
+
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+
+    .form-navigation{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .--UserLibrary-launch {
+        color: #f1a32a;
+    }
+
+    .Submit-button {
+        padding: 10px 20px;
+        background-color: green;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        width: 7rem;
+        margin-left: 0;
+    }
+
+    .Next-button {
+        padding: 10px 20px;
+        background-color: #f1a32a;
+        border: none;
+        border-radius: 10px;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        width: 7rem;
+        margin-left: 0;
+    }
+
+    .Back-button {
+        padding: 10px 20px;
+        background-color: red;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        width: 7rem;
+        margin-left: 0;
+    }
+
+    .UserLibrary-header button {
+        padding: 10px 20px;
+        background-color: green;
+        border: none;
+        margin-top: 35px;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 4px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+    .UserLibrary-header {
+        margin-top: 9rem;
+        color: white;
+        margin-left: 3rem;
+    }
+    
+    .UserLibrary-header-games {
+        margin-top: 4rem;
+    }
+    
+    .UserLibrary-header-games p {
+        margin-top: 20px;
+    }
+    
+    
+    .UserLibrary-games {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    
+    
+    .UserLibrary-games-content {
+        background-color: #001218;
+        padding: 20px;
+        height: 30rem;
+        border-radius: 20px;
+        width: 19.5rem;
+    }
+    
+    .UserLibrary-games-content-img {
+        width: 17rem;
+        height: 10rem;
+        border-radius: 10px;
+    }
+
+    
+    
+    .UserLibrary-games-content img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .UserLibrary-games-content h3, h2 {
+        margin-top: 20px;
+    }
+    
+    .UserLibrary-games-content p {
+        margin-top: 20px;
+        color: rgba(255, 255, 255, 0.748);
+    }
+    
+    .UserLibrary-apple-play {
+        display: flex;
+        gap: 20px;
+        margin-top: 10px;
+    }
+    
+    .UserLibrary-apple-play-one {
+        width: 110px;
+        height: 65px;
+    }
+
+    .UserLibrary-apple-play-two {
+        width: 100px;
+        margin-top: -2rem;
+        height: 130px;
+    }
+    
+    
+    .UserLibrary-information {
+        text-align: center;
+        margin-top: 4rem;
+    }
+    
+    .UserLibrary-information p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: rgba(255, 255, 255, 0.748);
+    }
+    
+    .UserLibrary-information button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    
+    .UserLibrary-modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        backdrop-filter: blur(3px) saturate(180%);
+        -webkit-backdrop-filter: blur(3px) saturate(180%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000; 
+    }
+
+    .add-game-imageVideo {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .add-game-form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .add-game-form input, .add-game-form textarea {
+        padding: 10px;
+        border-radius: 4px;
+        background: none;
+        color: white;
+        border: 1px solid #ccc;
+    }
+    
+    .add-game-forms input, .add-game-forms textarea {
+        padding: 5px;
+        border-radius: 4px;
+        background: none;
+        color: white;
+        border: 1px solid #ccc;
+    }
+    
+    .add-game-forms {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .add-game-forms h3 {
+        margin-bottom: 10px;
+    }
+    
+
+    .form-navigation{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .--UserLibrary-launch {
+        color: #f1a32a;
+    }
+
+    .Submit-button {
+        padding: 10px 20px;
+        background-color: green;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        width: 7rem;
+        margin-left: 0;
+    }
+
+    .Next-button {
+        padding: 10px 20px;
+        background-color: #f1a32a;
+        border: none;
+        border-radius: 10px;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        width: 7rem;
+        margin-left: 0;
+    }
+
+    .Back-button {
+        padding: 10px 20px;
+        background-color: red;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        width: 7rem;
+        margin-left: 0;
+    }
+
+    .UserLibrary-header button {
+        padding: 10px 20px;
+        background-color: green;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+
+
+    .UserLibrary-links input {
+        width: 17rem;
+    }
+
+
+
+    .spinner-container {
+        position: relative;
+        margin-left: 42rem;
+        margin-top: 20rem;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .spinner {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: conic-gradient(
+            rgba(255, 0, 0, 1),
+            rgba(255, 127, 0, 1),
+            rgba(255, 255, 0, 1),
+            rgba(0, 255, 0, 1),
+            rgba(0, 255, 255, 1),
+            rgba(0, 0, 255, 1),
+            rgba(127, 0, 255, 1),
+            rgba(255, 0, 0, 1)
+        );
+        animation: spin 1.5s linear infinite;
+    }
+    
+    .spinner-inner {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+        background-color: #000000;
+        border-radius: 50%;
+    }
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFFFFF; 
+        font-size: 18px; 
+        letter-spacing: -1px; 
+        text-align: center;
+        z-index: 1; 
+    }
+    
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+}
+
+.video-megabyte {
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.731);
+}
+
+
+

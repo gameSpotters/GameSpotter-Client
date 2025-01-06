@@ -1,0 +1,147 @@
+@media screen and (min-width: 350px) {
+    .Team {
+        margin-top: 4rem;
+    }
+
+    .--Team-info {
+        margin-left: 1rem;
+    }
+
+    .--Team-best { 
+        margin-left: 1rem;
+        color: white;
+        margin-left: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .teams {
+        font-family: "Grey Qo", cursive;
+        font-weight: 300;
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        color: #f1a32a;
+    }
+    
+    .Teams {
+        margin-left: 2rem;
+        font-size: 2rem;
+        color: white;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+    .Team {
+        margin-top: 8rem;
+        margin-left: 4rem;
+    }
+
+    .--Team-best {
+        margin-left: 3.5rem;
+        margin-bottom: 3rem;
+        color: white;
+    }
+
+    .teams {
+        font-family: "Grey Qo", cursive;
+        font-weight: 300;
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        color: #f1a32a;
+    }
+
+    .Teams {
+        font-size: 2rem;
+        color: white;
+        margin-left: 3.5rem;
+    }
+
+    .--Team- {
+         margin-left: 4rem;
+    }
+}
+
+
+
+.--Team-info {
+    color: #ff5900;
+}
+
+.--Team-hosts {
+    text-align: center;
+}
+
+.--Team-hosts img {
+    width: 15rem;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    height: 11rem;
+}
+
+.--Team-bayz {
+    margin-top: -5rem;
+}
+
+.--Team-bayz h3 {
+    font-size: 20px;
+}
+
+.--Team-bayz p {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.--Team-bayz img {
+    width: 10rem;
+    height: 9rem;
+}
+
+.--Team-details {
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.--Team- {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 3rem;
+}
+
+@keyframes slide {
+    0%, 20% {
+        transform: translateX(0);
+    }
+    25%, 45% {
+        transform: translateX(-100%);
+    }
+    50%, 70% {
+        transform: translateX(-200%);
+    }
+    75%, 100% {
+        transform: translateX(-300%);
+    }
+}
+
+@media (max-width: 768px) {
+    .--Team- {
+        display: flex;
+        gap: 0;
+        overflow: hidden;
+        width: 100vw;
+        position: relative;
+    }
+
+   
+
+    .--Team-hosts {
+        min-width: 100vw;
+    }
+
+    .slideOne, .slideTwo, .slideThree, .slideFour {
+        animation: slide 12s infinite;
+    }
+}

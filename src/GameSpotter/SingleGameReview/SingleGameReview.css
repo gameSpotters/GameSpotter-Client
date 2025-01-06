@@ -1,0 +1,600 @@
+@media screen and (min-width: 350px) {
+    .SingleGameReview-spinner-container {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 17rem; 
+        width: 100px;
+        height: 100px;
+    }
+
+    .SingleGameReview-spinner {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: conic-gradient(
+            rgba(255, 0, 0, 1),
+            rgba(255, 127, 0, 1),
+            rgba(255, 255, 0, 1),
+            rgba(0, 255, 0, 1),
+            rgba(0, 255, 255, 1),
+            rgba(0, 0, 255, 1),
+            rgba(127, 0, 255, 1),
+            rgba(255, 0, 0, 1)
+        );
+        animation: spin 1.5s linear infinite;
+    }
+
+    .SingleGameReview-spinner-inner {
+        position: absolute;
+        top: 5%;  
+        left: 5%;
+        width: 90%; 
+        height: 90%;
+        background-color: #000000;
+        border-radius: 50%;
+    }
+
+    .SingleGameReview-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFFFFF; 
+        font-size: 18px; 
+        letter-spacing: -1px; 
+        text-align: center;
+        z-index: 1; 
+    }
+
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .SingleGameReview-spinner-container {
+        position: relative;
+        margin-left: 42rem;
+        margin-top: 20rem;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .SingleGameReview-spinner {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: conic-gradient(
+            rgba(255, 0, 0, 1),
+            rgba(255, 127, 0, 1),
+            rgba(255, 255, 0, 1),
+            rgba(0, 255, 0, 1),
+            rgba(0, 255, 255, 1),
+            rgba(0, 0, 255, 1),
+            rgba(127, 0, 255, 1),
+            rgba(255, 0, 0, 1)
+        );
+        animation: spin 1.5s linear infinite;
+    }
+    
+    .SingleGameReview-spinner-inner {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+        background-color: #000000;
+        border-radius: 50%;
+    }
+    .SingleGameReview-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFFFFF; 
+        font-size: 18px; 
+        letter-spacing: -1px; 
+        text-align: center;
+        z-index: 1; 
+    }
+    
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}
+
+
+
+
+.--SingleGameReview-First-Info-Content-ctn {
+    display: flex;
+    gap: 20px;
+    overflow: hidden; 
+}
+
+.--SingleGameReview-First-Info-Content-ctn img {
+    width: 12.5rem;
+    height: 10rem;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.slider-controls {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .--SingleGameReview-First-Info-Content-ctn {
+        display: flex;
+        overflow-x: auto; 
+        scroll-snap-type: x mandatory; 
+        scroll-behavior: smooth; 
+        gap: 10px; 
+    }
+
+    .--SingleGameReview-First-Info-Content-ctn img {
+        width: 50%; 
+        height: auto; 
+        min-width: 100%;
+        border-radius: 10px; 
+        flex: 1; 
+        scroll-snap-align: start; 
+    }
+
+    .slider-controls {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .slider-controls button {
+        padding: 10px 15px;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+
+.SingleGameReview-welcome {
+    background-color: green;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    width: 85rem;
+}
+
+.--SingleGameReview-header {
+    margin-top: 9.5rem;
+    margin-left: 2rem;
+    color: white;
+}
+
+.--SingleGameReview-First-Info {
+    display: flex;
+    margin-top: 3rem;
+    gap: 5rem;
+    padding: 10px;
+}
+
+.--SingleGameReview-First-Info-img {
+    width: 40rem;
+    height: 25rem;
+    border-radius: 20px;
+}
+
+.--SingleGameReview-First-Info-Content hr {
+    margin-top: 30px;
+}
+
+.--SingleGameReview-First-Info-Content h2 {
+    color: red;
+}
+
+.--SingleGameReview-First-Info-Content-ctn {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.--SingleGameReview-First-Info-Content-ctn img {
+    width: 12rem;
+    height: 10rem;
+    border-radius: 20px;
+}
+
+.--SingleGameReview-Sub-First {
+    width: 40rem;
+    margin-top: -15px;
+}
+
+.--SingleGameReview-Sub-First h2 {
+    font-size: 2.6rem;
+}
+
+.--SingleGameReview-Sub-First h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.--SingleGameReview-Sub-First p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.--SingleGameReview-Sub-First span {
+    color: red;
+}
+
+.SingleGameReview-p {
+    color: rgba(255, 255, 255, 0.645);
+}
+
+.--SingleGameReview-Sub-First h4 {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.--SingleGameReview-Developer {
+    margin-top: 30px;
+}
+
+.--SingleGameReview-Developer h2 {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.671);
+}
+
+.--SingleGameReview-Developer-section {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.--SingleGameReview-Developer-section img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 20px;
+}
+
+.--SingleGameReview-Developer-section h3 {
+    margin-top: 11px;
+    font-size: 1.5rem;
+}
+
+.--SingleGameReview-Dev-Input {
+    width: 50rem;
+}
+
+.--SingleGameReview-Dev-Input h2 {
+    font-size: 34px;
+}
+
+.--SingleGameReview-Dev-Input p {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.616);
+}
+
+.--SingleGameReview-rating-review-ends {
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 5rem;
+}
+
+.SingleGameReview-RatingReview {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-right: 11rem;
+    font-size: 27px;
+    justify-content: flex-end;
+}
+
+.--SingleGameReview-rating-review-ends h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.one {
+    border: 5px solid green;
+    width: 5rem;
+}
+
+.two {
+    border: 5px solid yellow;
+    width: 7rem;
+}
+
+.three {
+    border: 5px solid yellowgreen;
+    width: 9rem;
+}
+
+.four {
+    border: 5px solid rgba(255, 0, 0, 0.457);
+    width: 11rem;
+}
+
+.five {
+    border: 5px solid red;
+    width: 13rem;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+    .SingleGameReview-welcome {
+        
+        width: 100%;
+        padding: 10px;
+    }
+
+    .--SingleGameReview-First-Info {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .--SingleGameReview-First-Info-img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .--SingleGameReview-First-Info-Content-ctn img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .--SingleGameReview-Sub-First {
+        width: 100%;
+    }
+
+    .--SingleGameReview-Developer-section {
+        flex-direction: flex;
+    }
+
+    .--SingleGameReview-Dev-Input {
+        width: 100%;
+    }
+
+    .--SingleGameReview-rating-review-ends {
+        margin-right: 0;
+    }
+
+    .SingleGameReview-RatingReview {
+        flex-direction: column;
+        margin-top: 30px;
+        margin-right: 0;
+        font-size: 24px;
+    }
+
+    .one, .two, .three, .four, .five {
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .SingleGameReview-welcome {
+        
+        padding: 8px;
+        width: 95%;
+    }
+
+    .--SingleGameReview-header {
+        margin-top: 7rem;
+        margin-left: 1rem;
+    }
+
+    .--SingleGameReview-First-Info {
+        gap: 1rem;
+    }
+
+    .--SingleGameReview-Sub-First h1, 
+    .--SingleGameReview-Sub-First h2, 
+    .--SingleGameReview-Sub-First h4 {
+        font-size: 1.6rem;
+    }
+
+    .--SingleGameReview-First-Info-img {
+        width: 90%;
+        height: auto;
+    }
+
+    .--SingleGameReview-First-Info-Content-ctn img {
+        width: 90%;
+    }
+
+    .--SingleGameReview-Dev-Input h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .SingleGameReview-welcome {
+        
+        width: 100%;
+        padding: 5px;
+    }
+
+    .--SingleGameReview-header {
+        margin-top: 10rem;
+        margin-right: 1rem;
+    }
+
+    .--SingleGameReview-First-Info {
+        gap: 1rem;
+    }
+
+    .--SingleGameReview-First-Info-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .--SingleGameReview-Sub-First h1,
+    .--SingleGameReview-Sub-First h2,
+    .--SingleGameReview-Sub-First h4 {
+        font-size: 1.4rem;
+    }
+
+    .--SingleGameReview-Dev-Input h2 {
+        font-size: 1.8rem;
+    }
+
+    .SingleGameReview-RatingReview {
+        font-size: 18px;
+    }
+
+    .one, .two, .three, .four, .five {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* here */
+
+
+a{
+    text-decoration: none;
+}
+#testimonials{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.testimonial-heading{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-heading-btn {
+    margin-right: 3.4rem;
+}
+
+.testimonial-heading-btn button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+.testimonial-heading span{
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.testimonial-box-container{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+.testimonial-box{
+    width:308px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+.profile-img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+.name-user strong{
+    color: #3d3d3d;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.name-user span{
+    color: #979797;
+    font-size: 0.8rem;
+}
+.reviews{
+    color: #f9d71c;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.client-comment p{
+    font-size: 0.9rem;
+    color: #4b4b4b;
+}
+.testimonial-box:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+ 
+@media(max-width:1060px){
+    .testimonial-box{
+        width:45%;
+        padding: 10px;
+    }
+}
+@media(max-width:790px){
+    .testimonial-box{
+        width:100%;
+    }
+    .testimonial-heading h1{
+        font-size: 1.4rem;
+    }
+    .testimonial-heading-btn {
+        margin-right:0;
+    }
+}
+@media(max-width:340px){
+    .box-top{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .reviews{
+        margin-top: 10px;
+    }
+    
+}
+::selection{
+    color: #ffffff;
+    background-color: #252525;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+@media screen and (min-width: 350px) {
+
+    .Available {
+        justify-content: center;
+        background-color: #001218;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .--available-header-content h2 {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        font-family: "Bungee Tint", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .--available-header-content h3 {
+        margin-top: 20px;
+        margin-bottom: 2rem;
+    }
+
+    .--available-header-image {
+        display: grid;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .--available-header-image img {
+        width: 19rem;
+        height: 13rem;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+
+    .Available {
+        justify-content: center;
+        background-color: #001218;
+        color: white;
+        padding: 30px;
+        width: 73.5rem;
+        border-radius: 10px;
+        margin-top: -2rem;
+        margin-bottom: 3rem;
+        margin-left: 8rem;
+    }
+
+    .--available-header-content h2 {
+        font-size: 2rem;
+        font-family: "Bungee Tint", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .--available-header-content h3 {
+        margin-top: 20px;
+        margin-bottom: 2rem;
+    }
+
+    .--available-header-image {
+        display: flex;
+        gap: 30px;
+    }
+
+    .--available-header-image img {
+        width: 16rem;
+        height: 13rem;
+    }
+}

@@ -1,0 +1,73 @@
+.GameLeft {
+    color: white;
+}
+
+.GameLeft-header {
+    /* text-align: center; */
+    margin-right: 7rem;
+}
+
+.GameLeft-header-hr {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem
+}
+
+.gameleft-dev{
+    color: rgba(255, 255, 255, 0.544);
+    margin-bottom: 10px;
+}
+
+.GameLeft-header-img {
+    width: 6rem;
+    height: 5.9rem;
+    border-radius: 30px;
+    margin-top: 3rem;
+}
+
+.GameLeft-download-one {
+    width: 10rem;
+    margin-top: -30px;
+    height: 11rem;
+}
+
+.GameLeft-download-two {
+    width: 10rem;
+    margin-top: -3rem;
+    height: 5.5rem;
+}
+
+.--GameLeft-rating-hr {
+    margin-top: 3.5rem;
+}
+
+.--GameLeft-Rating-Review h3 {
+    margin-bottom: 10px;
+}
+
+.--GameLeft-rating-star {
+    font-size: 2rem;
+}
+
+.--GameLeft-Rating-Review button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    width: 12rem;
+    background-color: green;
+}
+
+@media screen and (min-width: 350px) {
+    .GameLeft {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .GameLeft {
+        display: block;
+    }
+}
+
+

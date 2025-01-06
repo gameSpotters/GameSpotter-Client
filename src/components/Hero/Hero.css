@@ -1,0 +1,230 @@
+@media screen and (min-width: 350px) {
+
+    .Hero {
+        margin-top: 10rem;
+        text-align: center;
+    }
+
+
+    .Hero h1 {
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    .Hero h4 {
+        text-align: center;
+        font-size: 2.5rem;
+        color: white;
+        margin-top: 15px;
+    }
+
+    .Hero p {
+        text-align: center;
+        font-size: 10px;
+        margin-top: 2rem;
+        color: rgba(255, 255, 255, 0.763);
+    }
+
+    .Hero-button {
+        padding: 15px 30px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 3rem;
+        background-color: #f1a32a;
+        color: white;
+        font-size: 10px;
+        cursor: pointer;
+        margin-bottom: 2rem;
+
+    }
+
+
+    .Hero-Header {
+        margin-top: 12rem;
+    }
+
+    .Hero-Header h3 {
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 2.5rem;
+        color: white;
+    }
+
+
+    .--hero-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .--hero-content div {
+        margin: 0 10px;
+    }
+
+    .--hero-content img {
+        width: 10rem;
+        border-radius: 10px;
+    }
+
+    .--Hero-Animation {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+    .Hero {
+        margin-top: 15rem;
+        text-align: center;
+    }
+
+
+    .Hero h1 {
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 3.5rem;
+        color: white;
+    }
+
+    .Hero h4 {
+        text-align: center;
+        font-size: 3.5rem;
+        color: white;
+        margin-top: 42px;
+    }
+
+    .Hero p {
+        text-align: center;
+        font-size: 1.1rem;
+        margin-top: 2rem;
+        color: rgba(255, 255, 255, 0.763);
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+    }
+
+    .Hero-button {
+        padding: 15px 30px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 2rem;
+        background-color: #f1a32a;
+        color: white;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-bottom: 0;
+
+    }
+
+
+    .Hero-Header {
+        margin-top: 12rem;
+    }
+
+    .Hero-Header h3 {
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 2.5rem;
+        color: white;
+    }
+
+    .--hero-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .--hero-content div {
+        margin: 0 10px;
+    }
+
+    .--hero-content img {
+        width: 25rem;
+        height: 20rem;
+        border-radius: 10px;
+    }
+
+    .--Hero-Animation {
+        display: block;
+    }
+
+
+    @keyframes shake {
+        0% {
+            transform: translateX(0);
+        }
+
+        25% {
+            transform: translateX(-15px);
+        }
+
+        50% {
+            transform: translateX(15px);
+        }
+
+        75% {
+            transform: translateX(-15px);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+
+
+    .--Hero-first-Rope {
+        margin-top: -61rem;
+        position: absolute;
+        margin-left: 80px;
+
+    }
+
+
+    .--Hero-first-Rope img {
+        width: 10rem;
+        animation: shake 0.8s infinite;
+    }
+
+    .--Hero-second-Rope {
+        margin-top: -60rem;
+        margin-left: 70rem;
+        position: absolute;
+
+    }
+
+    .--Hero-second-Rope img {
+        width: 15rem;
+    }
+
+
+
+    .--Hero-shake {
+        margin-top: -37.5rem;
+        position: absolute;
+    }
+
+    .--Hero-shake img {
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .shake {
+        height: 15rem;
+        width: 20rem;
+        margin-left: 20px;
+        /* animation: shake 0.8s infinite;  */
+    }
+
+    .thumb {
+        position: absolute;
+        margin-top: 30px;
+        width: 10rem;
+        margin-left: -15.5rem;
+    }
+
+}

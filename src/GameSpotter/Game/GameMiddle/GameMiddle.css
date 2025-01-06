@@ -1,0 +1,128 @@
+.GameMiddle {
+    color: white;
+}
+
+/* .--GameMiddle-form {
+    
+} */
+
+.--GameMiddle-form input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 21.6rem;
+    height: 3rem;
+    margin-top: 20px;
+}
+
+.--GameMiddle-form button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    background-color: green;
+}
+
+.gameMiddle-test {
+    margin-top: 3px;
+}
+
+.gameMiddle-test h2 {
+    margin-bottom: 20px;
+}
+
+.gameMiddle-test h2 {
+    color: red;
+}
+
+.gameMiddle-test p {
+    color: rgba(255, 255, 255, 0.544);
+}
+
+.gameMiddle-connect img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.GameMiddle hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.gameMiddle-connect-header {
+    background-color: black;
+    height: 55vh;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.--gameMiddle-wallet-connect {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gameMiddle-connect button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    width: 19rem;
+    color: white;
+    background-color: #001218;
+    display: flex;
+    margin-left: 14px;
+    justify-content: space-around;
+    gap: 9rem;
+}
+
+.--GameMiddle-meet {
+    display: flex;
+    justify-content: space-between;
+}
+
+.--GameMiddle-developer {
+    margin-right: 5px;
+}
+
+
+@media screen and (min-width: 350px) {
+    .GameMiddle {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .GameMiddle {
+        display: block;
+    }
+}
+
+.gameMiddle-spotter-wallet {
+    display: flex;
+    background-color: #001218;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 20px;
+
+}
+
+.gameMiddle-spotter-wallet span {
+    color: red;
+}
+
+/* .--gameMiddle-wallet-section {
+
+} */
+
+
+.--gameMiddle-wallet-section p {
+    margin-top: 2rem;
+}
+
+.--gameMiddle-wallet-section ol li {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}

@@ -1,0 +1,60 @@
+@media screen and (min-width: 350px) {
+    .GameDashBoard {
+        margin-top: -45rem;
+        overflow: hidden;
+        background-color: var(--bg-color);
+        color: var(--primary-text-color);
+    }
+    
+    
+    #SideDashBoard {
+        display: block;
+        height: 100vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        box-sizing: content-box;
+    }
+    
+    ::-webkit-scrollbar {
+        display: none;
+        scroll-behavior: smooth;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+    .GameDashBoard {
+        display: grid;
+        grid-template-columns: 340px 1fr;
+        height: 100%;
+        margin-top: 10rem;
+        overflow: hidden;
+        background-color: var(--bg-color);
+        color: var(--primary-text-color);
+    }
+    
+    
+    #SideDashBoard {
+        display: block;
+        height: 160vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        box-sizing: content-box;
+    }
+    
+    #MainDashBoard {
+        height: 160vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        box-sizing: content-box;
+    }
+    
+    ::-webkit-scrollbar {
+        display: none;
+        scroll-behavior: smooth;
+    }
+}

@@ -1,0 +1,91 @@
+@media screen and (min-width: 350px) {
+    .Introduction {
+        color: white;
+        text-align: center;
+        /* margin-top: -23rem; */
+    }
+    
+    .Introduction h1 {
+        font-size: 2rem;
+        padding: 10px;
+    }
+    
+    
+    .Introduction h2 {
+        margin-top: 2rem;
+        font-size: 15px;
+        color: #f1a32a;
+    }
+    
+    .Introduction-header button {
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 4rem;
+        width: 10rem;
+    }
+    
+    .Introduction-header button:hover {
+        background-color: #001218;
+        color: white;
+        transition: 2s ease;
+    }
+    
+    .Introduction hr {
+        margin-top: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20rem;
+        border-top: 1px dashed;
+    }
+    
+}
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+    .Introduction {
+        color: white;
+        text-align: center;
+        padding-top: 5rem;
+        margin-top: 0;
+    }
+    
+    .Introduction h1 {
+        font-size: 3.5rem;
+        padding-top: 5rem;
+    }
+    
+    
+    .Introduction h2 {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        color: #f1a32a;
+    }
+    
+    .Introduction-header button {
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 4rem;
+        width: 10rem;
+    }
+    
+    .Introduction-header button:hover {
+        background-color: #001218;
+        color: white;
+        transition: 2s ease;
+    }
+    
+    .Introduction hr {
+        margin-top: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70rem;
+        border-top: 1px dashed;
+    }
+    
+}

@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.Information {
+  margin-top: 9rem;
+}
+
+.Information-Mission {
+  margin-left: 7rem;
+  color: #f1a32a;
+  font-size: 2rem;
+  font-family: "Lobster", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.Information-First {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 7rem;
+}
+
+.Information-Second,
+.Information-Third {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15rem;
+}
+
+.Information-First-Header h2 {
+  margin-top: 2rem;
+  color: rgba(255, 255, 255, 0.927);
+  font-size: 3rem;
+}
+
+.Information-First-Header p {
+  margin-top: 4rem;
+  color: rgba(255, 255, 255, 0.731);
+  font-size: 1.3rem;
+}
+
+.Information-First-Header button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 5rem;
+  background-color: #f1a32a;
+  color: white;
+  width: 12rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.Information-Second-Header img {
+  width: 35rem;
+  height: 25rem;
+  border-radius: 10px;
+}
+
+.Information-Welcome {
+  display: grid;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
+.Information-Welcome img {
+  width: 35rem;
+  height: 8rem;
+}
+
+
+/* Adjust layout for medium screens (tablets, small laptops) */
+@media screen and (max-width: 1024px) {
+  .Information {
+    margin-top: 8rem;
+  }
+
+  .Information-Mission {
+    margin-left: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .Information-First-Header h2 {
+    font-size: 2.5rem;
+    /* padding: 10px; */
+  }
+
+  .Information-First-Header p {
+    font-size: 1.2rem;
+  }
+
+  .Information-First-Header button {
+    width: 10rem;
+    font-size: 1rem;
+  }
+
+  .Information-Second-Header img {
+    width: 30rem;
+    height: 20rem;
+  }
+
+  .Information-Welcome img {
+    width: 30rem;
+    height: 7rem;
+  }
+}
+
+/* Adjust layout for smaller screens (mobile devices) */
+@media screen and (max-width: 768px) {
+  .Information {
+    margin-top: 5rem;
+  }
+
+  .Information-Mission {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .Information-First {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -2rem;
+  }
+
+  .Information-Second {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+  }
+
+  .Information-Third {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  .Information-First-Header h2 {
+    font-size: 2rem;
+    text-align: center;
+    /* padding: 20px; */
+  }
+
+  .Information-First-Header p {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .Information-First-Header button {
+    margin-top: 3rem;
+    width: 8rem;
+    margin-left: 9rem;
+    margin-bottom: 3rem;
+    font-size: 0.9rem;
+  }
+
+  .Information-Second-Header img {
+    width: 25rem;
+    height: 18rem;
+  }
+
+  .Information-Welcome img {
+    width: 25rem;
+    height: 6rem;
+  }
+}
+
+/* Further adjustments for very small screens (small mobile devices) */
+@media screen and (max-width: 480px) {
+  .Information {
+    margin-top: 4rem;
+  }
+
+  .Information-Mission {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .Information-First-Header hr {
+    display: none;
+  }
+
+  .Information-First-Header h2 {
+    font-size: 1.8rem;
+  }
+
+  .Information-First-Header p {
+    font-size: 1rem;
+    padding: 20px;
+  }
+
+  .Information-First-Header button {
+    width: 7rem;
+    font-size: 0.8rem;
+  }
+
+  .Information-Second-Header img {
+    width: 20rem;
+    height: 14rem;
+  }
+
+  .Information-Welcome img {
+    width: 20rem;
+    height: 5rem;
+  }
+}
+
+
+.Information-First-Header hr {
+  width: 15rem;
+  border: 6px solid green;
+  border-radius: 6px;
+}

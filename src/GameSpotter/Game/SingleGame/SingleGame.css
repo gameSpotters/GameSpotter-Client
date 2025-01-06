@@ -1,0 +1,218 @@
+@media screen and (min-width: 350px) {
+    .GameDashBoard-spinner-containers {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem; 
+        width: 100px;
+        height: 100px;
+    }
+
+    .GameDashBoard-spinners {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: conic-gradient(
+            rgba(255, 0, 0, 1),
+            rgba(255, 127, 0, 1),
+            rgba(255, 255, 0, 1),
+            rgba(0, 255, 0, 1),
+            rgba(0, 255, 255, 1),
+            rgba(0, 0, 255, 1),
+            rgba(127, 0, 255, 1),
+            rgba(255, 0, 0, 1)
+        );
+        animation: spin 1.5s linear infinite;
+    }
+
+    .GameDashBoard-spinner-inners {
+        position: absolute;
+        top: 5%;  
+        left: 5%;
+        width: 90%; 
+        height: 90%;
+        background-color: #000000;
+        border-radius: 50%;
+    }
+
+    .GameDashBoard-texts {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFFFFF; 
+        font-size: 18px; 
+        letter-spacing: -1px; 
+        text-align: center;
+        z-index: 1; 
+    }
+
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .SingleGame {
+        margin-top: -87rem;
+    }
+    
+    
+    #GameLeft {
+        height: 100vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        box-sizing: content-box;
+    }
+
+    .vl {
+        border-left: 1px solid rgba(255, 255, 255, 0.544);
+        height: 1239px;
+        color: rgba(255, 255, 255, 0.544);
+        position: absolute;
+        margin-left: 16rem;
+        display: none;
+        top: 0;
+    }
+
+    #GameMiddle {
+        height: 110vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        box-sizing: content-box;
+    }
+    
+    #GameRight {
+        height: auto;
+        margin-top: -18rem;
+        overflow: hidden; 
+        overflow-x: hidden;
+        box-sizing: content-box;
+        display: block;
+    }
+    
+    ::-webkit-scrollbar {
+        display: none;
+        scroll-behavior: smooth;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+    .GameDashBoard-spinner-containers {
+        position: relative;
+        margin-left: 42rem;
+        margin-top: 20rem;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .GameDashBoard-spinners {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: conic-gradient(
+            rgba(255, 0, 0, 1),
+            rgba(255, 127, 0, 1),
+            rgba(255, 255, 0, 1),
+            rgba(0, 255, 0, 1),
+            rgba(0, 255, 255, 1),
+            rgba(0, 0, 255, 1),
+            rgba(127, 0, 255, 1),
+            rgba(255, 0, 0, 1)
+        );
+        animation: spin 1.5s linear infinite;
+    }
+    
+    .GameDashBoard-spinner-inners {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+        background-color: #000000;
+        border-radius: 50%;
+    }
+    .GameDashBoard-texts {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFFFFF; 
+        font-size: 18px; 
+        letter-spacing: -1px; 
+        text-align: center;
+        z-index: 1; 
+    }
+    
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+
+    .SingleGame {
+        display: grid;
+        grid-template-columns: 300px 350px 1fr;
+        height: 100%;
+        margin-left: 2rem;
+        margin-top: 9rem;
+        overflow: hidden;
+        background-color: var(--bg-color);
+        color: var(--primary-text-color);
+    }
+    
+    
+    #GameLeft {
+        height: 175vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        box-sizing: content-box;
+    }
+
+    .vl {
+        border-left: 1px solid rgba(255, 255, 255, 0.544);
+        height: 1767px;
+        color: rgba(255, 255, 255, 0.544);
+        position: absolute;
+        margin-left: 16rem;
+        display: block;
+        top: 0;
+      }
+
+    #GameMiddle {
+        height: 175vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        box-sizing: content-box;
+    }
+    
+    #GameRight {
+        height: 175vh;
+        margin-top: 0;
+        overflow: scroll;
+        overflow-x: hidden;
+        box-sizing: content-box;
+    }
+    
+    ::-webkit-scrollbar {
+        display: none;
+        scroll-behavior: smooth;
+    }
+}
+
+
+    

@@ -1,0 +1,319 @@
+@media screen and (min-width: 350px) {
+    .GameRight {
+        color: white;
+    }
+
+    .GameRight-suv {
+        margin-left: 20px;
+    }
+    
+    .--GameRight-header {
+        border-radius: 20px;
+        width: 24rem;
+        padding: 20px;
+    }
+
+
+    .--GameRight-headers {
+        background-color: #001218;
+        border-radius: 20px;
+        width: 24rem;
+        margin-right: 90px;
+    }
+    
+    .gameRight-follow {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .gameRight-feedback {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .gameRight-feedback-one {
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 40px;
+        color: white;
+        background-color: black;
+    }
+
+    .gameRight-feedback-two {
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 40px;
+        color: white;
+        background-color: #f1a32a;
+    }
+    
+    .gameRight-follow button {
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 20px;
+        color: white;
+        background-color: green;
+    }
+    
+    .--GameRight-header-img {
+        background-color: black;
+        width: 22.7rem;
+        height: 18rem;
+        border-radius: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    .--GameRight-description {
+        padding: 15px;
+    }
+    
+    .--GameRight-description h1 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .--game-description-color {
+        color: green;
+    }
+    
+    .--GameRight-description p {
+        margin-top: 20px;
+    }
+    
+    .--GameRight-testGame {
+        background-color: black;
+        margin-top: 5rem;
+        border-radius: 20px;
+    }
+    
+    .--GameRight-testGame-header {
+        padding: 20px;
+    }
+    
+    .--GameRight-flex button {
+        padding: 10px;
+        background-color: white;
+        border-radius: 20px;
+        border: none;
+        color: black;
+        width: 7rem;
+    }
+    
+    .--GameRight-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .--GameRight-Additional {
+        margin-top: 3rem;
+    }
+    
+    .--GameRight-Additional-header {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .--GameRight-Additional-header-image {
+        display: flex;
+        overflow-x: auto; 
+        scroll-snap-type: x mandatory; 
+        scroll-behavior: smooth; 
+        gap: 10px; 
+
+
+        
+    }
+    
+    .--GameRight-Additional-header-image img {
+        width: 50%; 
+        height: auto; 
+        min-width: 100%;
+        border-radius: 10px; 
+        flex: 1; 
+        scroll-snap-align: start; 
+    }
+
+    .--GameRight-swipe {
+        display: none;
+    }
+
+    .--gameRight-display {
+        display: block;
+    }
+
+    .--gameRights-display {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .--gameRights-displays {
+        display: block;
+        margin-top: 40px;
+        margin-bottom: -20px;
+    }
+
+    .--gameRights-display-h2 {
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+    .GameRight {
+        margin-left: 20px;
+        color: white;
+    }
+
+    .GameRight-suv {
+        margin-left: 0;
+    }
+    
+    .--GameRight-header {
+        background-color: #001218;
+        border-radius: 20px;
+        margin-left: 30px;
+        width: 43rem;
+        padding: 0;
+        height: 84vh;
+    }
+
+    .--GameRight-headers {
+        background-color: #001218;
+        border-radius: 20px;
+        width: auto;
+        margin-right: 0;
+    }
+    
+    .gameRight-follow {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .gameRight-feedback {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .gameRight-feedback-one {
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 40px;
+        color: white;
+        background-color: black;
+    }
+
+    .gameRight-feedback-two {
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 40px;
+        color: black;
+        background-color: #f1a32a;
+    }
+    
+    .gameRight-follow button {
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 20px;
+        color: white;
+        background-color: green;
+    }
+    
+    .--GameRight-header-img {
+        background-color: black;
+        width: 41.7rem;
+        height: 22rem;
+        border-radius: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    .--GameRight-description {
+        padding: 15px;
+    }
+    
+    .--GameRight-description h1 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .--game-description-color {
+        color: green;
+    }
+    
+    .--GameRight-description p {
+        margin-top: 20px;
+    }
+    
+    .--GameRight-testGame {
+        background-color: black;
+        margin-top: 5rem;
+        border-radius: 20px;
+    }
+    
+    .--GameRight-testGame-header {
+        padding: 20px;
+    }
+    
+    .--GameRight-flex button {
+        padding: 10px;
+        background-color: white;
+        border-radius: 20px;
+        border: none;
+        color: black;
+        width: 7rem;
+    }
+    
+    .--GameRight-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .--GameRight-Additional {
+        margin-top: 3rem;
+    }
+    
+    .--GameRight-Additional-header {
+        margin-top: 40px;
+    }
+    
+    .--GameRight-Additional-header-image {
+        display: flex;
+        margin-top: 2rem;
+        justify-content: space-between;
+    }
+    
+    .--GameRight-Additional-header-image img {
+        width: 21rem;
+        min-height: none;
+        height: 18rem;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    .--GameRight-swipe {
+        display: block;
+    }
+
+    .--gameRight-display {
+        display: none;
+    }
+
+    .--gameRights-display {
+        display: none;
+    }
+
+    .--gameRights-displays {
+        display: none;
+    }
+}

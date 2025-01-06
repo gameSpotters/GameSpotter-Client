@@ -1,0 +1,153 @@
+.makeComment-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 2.5rem;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.makeComment-content {
+    background-color: #001218;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.review-container {
+    margin: 20px 0;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.review-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.rating label {
+    cursor: pointer;
+}
+
+.rating input[type="radio"] {
+    display: none;
+}
+
+.star {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea.input-field {
+    resize: none;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f44336;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.close-btn:hover {
+    background-color: #e53935;
+}
+
+
+.react-hot-toast-container {
+    font-family: Arial, sans-serif;
+    margin-top: 10rem;
+    z-index: 9999;
+}
+
+.react-hot-toast {
+    padding: 16px;
+    margin-top: 10rem;
+    z-index: 9999;
+    border-radius: 8px;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    animation: slideIn 0.5s ease, fadeOut 0.5s ease 3s;
+    transition: opacity 0.3s ease;
+}
+
+.react-hot-toast--success {
+    background-color: #4caf50;
+}
+
+.react-hot-toast--error {
+    background-color: #f44336;
+}
+
+.react-hot-toast svg {
+    margin-right: 8px;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
